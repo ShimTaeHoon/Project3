@@ -9,6 +9,10 @@ public class Quiz3 {
 		// 예시) '456' -> '400'
 		//      '111' -> '100;
 		
+		int num22 = 456;
+		int result = num22 / 100 * 100;		
+		System.out.println(result);
+		
 		int num = 456;
 		System.out.println(num / 100 * 100);
 		int num2 = 111;

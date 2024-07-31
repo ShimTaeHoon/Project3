@@ -7,6 +7,9 @@ public class Quiz5 {
 		int myAge = 33;
 		int fAge = 40;
 		// 1. 본인의 나이가 40세 이하라면 true를 출력하세요
+		boolean result123 = myAge < 40;
+		System.out.println("test : " + result123);
+		
 		boolean age1 = (myAge <= fAge); 
 		System.out.println(age1);
 		// 2. 본인의 나이가 40세가 맞다면 true를 출력하세요
